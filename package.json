@@ -1,8 +1,8 @@
 {
   "homepage": "https://github.com/cedricstor/matric64-mc64.git",
-  "name": "mc64",
+  "name": "matric64-mc64",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
