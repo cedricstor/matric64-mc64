@@ -2,32 +2,40 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Web site created using create-react-app" />
+    <link rel="apple-touch-icon" href="/cedricstor/matric64-mc64.github.io.git/logo192.png" />
+    <link rel="manifest" href="/cedricstor/matric64-mc64.github.io.git/manifest.json" />
     <title>Matric64</title>
-    <meta name="description" content="Play Chess with Stockfish.">
-
+    <meta name="description" content="Play Chess with Stockfish." />
     <style>
-      html { background-color: rgb(0, 120, 0); }
+      html {
+        background-color: #007800;
+      }
     </style>
-    
-    <!-- Start Single Page Apps for GitHub Pages -->
     <script type="text/javascript">
-      (function(l) {
-        if (l.search[1] === '/' ) {
-          var decoded = l.search.slice(1).split('&').map(function(s) { 
-            return s.replace(/~and~/g, '&')
-          }).join('?');
-          window.history.replaceState(null, null,
-              l.pathname.slice(0, -1) + decoded + l.hash
+      !(function (n) {
+        if ("/" === n.search[1]) {
+          var a = n.search
+            .slice(1)
+            .split("&")
+            .map(function (n) {
+              return n.replace(/~and~/g, "&");
+            })
+            .join("?");
+          window.history.replaceState(
+            null,
+            null,
+            n.pathname.slice(0, -1) + a + n.hash
           );
         }
-      }(window.location))
+      })(window.location);
     </script>
-    <!-- End Single Page Apps for GitHub Pages -->
+    <script defer="defer" src="/cedricstor/matric64-mc64.github.io.git/static/js/main.be4a90b0.js"></script>
+    <link href="/cedricstor/matric64-mc64.github.io.git/static/css/main.e6c13ad2.css" rel="stylesheet" />
   </head>
   <body>
     <div id="root"></div>
-    <script src="/Users/CedricBendavid/mc64/build/asset-manifest.json"></script>
   </body>
 </html>
